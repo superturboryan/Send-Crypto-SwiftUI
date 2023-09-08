@@ -21,7 +21,9 @@ struct CoinGeckoSimplePrice {
         
         var fiatValues = [FiatType : Double]()
         for (fiatString, value) in fiatJson {
-            fiatValues[FiatType(rawValue: fiatString)!] = value
+            if let type = FiatType(rawValue: fiatString) {
+                fiatValues[type] = value
+            }
         }
         
         return CoinGeckoSimplePrice(

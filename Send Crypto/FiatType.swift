@@ -8,15 +8,23 @@
 import SwiftUI
 
 enum FiatType: String, CaseIterable {
-    case eur = "eur"
-    case usd = "usd"
-    case gbp = "gbp"
+    case eur
+    case usd
+    case gbp
     
     var monetaryUnit: String {
         switch self {
         case .eur: return "Euro"
         case .usd: return "Dollar"
         case .gbp: return "Pound"
+        }
+    }
+    
+    var symbol: String {
+        switch self {
+        case .eur: return "€"
+        case .usd: return "$"
+        case .gbp: return "£"
         }
     }
     

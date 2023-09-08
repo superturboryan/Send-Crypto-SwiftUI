@@ -14,4 +14,5 @@ public extension Color {
     static let tertiaryBackground = Color(UIColor.tertiarySystemBackground)
     
     static let customBG = Color("custom-bg-color")
+    static let customBlue = Color("custom-blue")
 }
