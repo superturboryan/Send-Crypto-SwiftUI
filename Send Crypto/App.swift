@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct Send_CryptoApp: App {
+    
+    @StateObject var crypto = Crypto(fiatTypes: [.eur, .usd, .gbp])
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
+                .environmentObject(crypto)
         }
     }
 }

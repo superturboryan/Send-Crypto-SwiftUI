@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9444A1312AAB36F7003CE42D /* Send_CryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444A1302AAB36F7003CE42D /* Send_CryptoApp.swift */; };
-		9444A1332AAB36F7003CE42D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444A1322AAB36F7003CE42D /* ContentView.swift */; };
+		9444A1312AAB36F7003CE42D /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444A1302AAB36F7003CE42D /* App.swift */; };
+		9444A1332AAB36F7003CE42D /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444A1322AAB36F7003CE42D /* RootView.swift */; };
 		9444A1352AAB36F9003CE42D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9444A1342AAB36F9003CE42D /* Assets.xcassets */; };
 		9444A1382AAB36F9003CE42D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9444A1372AAB36F9003CE42D /* Preview Assets.xcassets */; };
+		9444A1422AAB43E0003CE42D /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444A1412AAB43E0003CE42D /* Image.swift */; };
+		9444A1442AAB4F9A003CE42D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444A1432AAB4F9A003CE42D /* Color.swift */; };
+		9444A1462AAB52DE003CE42D /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444A1452AAB52DE003CE42D /* View.swift */; };
+		9444A1482AAB59BB003CE42D /* FiatSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444A1472AAB59BB003CE42D /* FiatSelectorView.swift */; };
+		9444A14A2AAB6BA6003CE42D /* FiatType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444A1492AAB6BA6003CE42D /* FiatType.swift */; };
+		9444A14C2AAB728A003CE42D /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444A14B2AAB728A003CE42D /* Crypto.swift */; };
+		9444A14F2AAB72FB003CE42D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444A14E2AAB72FB003CE42D /* Model.swift */; };
+		9444A1512AAB77CA003CE42D /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444A1502AAB77CA003CE42D /* Request.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9444A12D2AAB36F7003CE42D /* Send Crypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Send Crypto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9444A1302AAB36F7003CE42D /* Send_CryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Send_CryptoApp.swift; sourceTree = "<group>"; };
-		9444A1322AAB36F7003CE42D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9444A1302AAB36F7003CE42D /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		9444A1322AAB36F7003CE42D /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		9444A1342AAB36F9003CE42D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9444A1372AAB36F9003CE42D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9444A1412AAB43E0003CE42D /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		9444A1432AAB4F9A003CE42D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		9444A1452AAB52DE003CE42D /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		9444A1472AAB59BB003CE42D /* FiatSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiatSelectorView.swift; sourceTree = "<group>"; };
+		9444A1492AAB6BA6003CE42D /* FiatType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiatType.swift; sourceTree = "<group>"; };
+		9444A14B2AAB728A003CE42D /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		9444A14E2AAB72FB003CE42D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		9444A1502AAB77CA003CE42D /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +67,12 @@
 		9444A12F2AAB36F7003CE42D /* Send Crypto */ = {
 			isa = PBXGroup;
 			children = (
-				9444A1302AAB36F7003CE42D /* Send_CryptoApp.swift */,
-				9444A1322AAB36F7003CE42D /* ContentView.swift */,
-				9444A1342AAB36F9003CE42D /* Assets.xcassets */,
-				9444A1362AAB36F9003CE42D /* Preview Content */,
+				9444A1302AAB36F7003CE42D /* App.swift */,
+				9444A1492AAB6BA6003CE42D /* FiatType.swift */,
+				9444A13E2AAB3842003CE42D /* Config */,
+				9444A14D2AAB72CF003CE42D /* Crypto */,
+				9444A1402AAB43D1003CE42D /* Extension */,
+				9444A13F2AAB3859003CE42D /* Views */,
 			);
 			path = "Send Crypto";
 			sourceTree = "<group>";
@@ -65,6 +83,44 @@
 				9444A1372AAB36F9003CE42D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9444A13E2AAB3842003CE42D /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				9444A1342AAB36F9003CE42D /* Assets.xcassets */,
+				9444A1362AAB36F9003CE42D /* Preview Content */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		9444A13F2AAB3859003CE42D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9444A1472AAB59BB003CE42D /* FiatSelectorView.swift */,
+				9444A1322AAB36F7003CE42D /* RootView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9444A1402AAB43D1003CE42D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9444A1412AAB43E0003CE42D /* Image.swift */,
+				9444A1432AAB4F9A003CE42D /* Color.swift */,
+				9444A1452AAB52DE003CE42D /* View.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9444A14D2AAB72CF003CE42D /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				9444A14B2AAB728A003CE42D /* Crypto.swift */,
+				9444A14E2AAB72FB003CE42D /* Model.swift */,
+				9444A1502AAB77CA003CE42D /* Request.swift */,
+			);
+			path = Crypto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +193,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9444A1332AAB36F7003CE42D /* ContentView.swift in Sources */,
-				9444A1312AAB36F7003CE42D /* Send_CryptoApp.swift in Sources */,
+				9444A14F2AAB72FB003CE42D /* Model.swift in Sources */,
+				9444A14C2AAB728A003CE42D /* Crypto.swift in Sources */,
+				9444A14A2AAB6BA6003CE42D /* FiatType.swift in Sources */,
+				9444A1332AAB36F7003CE42D /* RootView.swift in Sources */,
+				9444A1442AAB4F9A003CE42D /* Color.swift in Sources */,
+				9444A1462AAB52DE003CE42D /* View.swift in Sources */,
+				9444A1422AAB43E0003CE42D /* Image.swift in Sources */,
+				9444A1512AAB77CA003CE42D /* Request.swift in Sources */,
+				9444A1312AAB36F7003CE42D /* App.swift in Sources */,
+				9444A1482AAB59BB003CE42D /* FiatSelectorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +330,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Send Crypto/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Send Crypto/Config/Preview Content\"";
 				DEVELOPMENT_TEAM = T6MXF72738;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -295,7 +359,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Send Crypto/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Send Crypto/Config/Preview Content\"";
 				DEVELOPMENT_TEAM = T6MXF72738;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
