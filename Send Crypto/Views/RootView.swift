@@ -90,7 +90,7 @@ struct RootView: View {
         }
         .sheet(isPresented: $isPresentingFiatSelector) {
             let figmaSheetHeight: CGFloat = 488
-            FiatSelectorView(selectedAmount: selectedAmount, selectedFiat: $selectedFiatType)
+            CompositionRoot.fiatSelectorView(selectedAmount, $selectedFiatType)
                 .presentationDetents([.height(figmaSheetHeight - 20)])
                 .presentationDragIndicator(.visible)
         }

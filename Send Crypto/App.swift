@@ -10,14 +10,11 @@ import SwiftUI
 @main
 struct Send_CryptoApp: App {
     
-    @StateObject var ethPrice = EthPrice(
-        fiatTypes: [.eur, .usd, .gbp],
-        ethPriceService: EthPriceNetworkService()
-    )
+    @StateObject var ethPrice = CompositionRoot.ethPrice
     
     var body: some Scene {
         WindowGroup {
-            RootView()
+            CompositionRoot.rootView
                 .environmentObject(ethPrice)
         }
     }

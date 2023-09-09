@@ -25,7 +25,7 @@ final class EthPrice: ObservableObject {
     @Published var estimatedNetworkFees: Double = 0
     
     // Dependencies
-    var fiatTypes: [FiatType]
+    private var fiatTypes: [FiatType]
     private var ethPriceService: EthPriceFetching
     
     init(

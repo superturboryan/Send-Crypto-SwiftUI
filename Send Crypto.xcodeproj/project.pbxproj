@@ -19,6 +19,7 @@
 		9444A14C2AAB728A003CE42D /* EthPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444A14B2AAB728A003CE42D /* EthPrice.swift */; };
 		9444A14F2AAB72FB003CE42D /* Network Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444A14E2AAB72FB003CE42D /* Network Models.swift */; };
 		9444A1512AAB77CA003CE42D /* Network Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444A1502AAB77CA003CE42D /* Network Request.swift */; };
+		945DC7E12AAC873E00D8BFC1 /* CompositionRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945DC7E02AAC873E00D8BFC1 /* CompositionRoot.swift */; };
 		94937C012AAC788800189BFD /* EthPriceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94937C002AAC788800189BFD /* EthPriceTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		9444A14E2AAB72FB003CE42D /* Network Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network Models.swift"; sourceTree = "<group>"; };
 		9444A1502AAB77CA003CE42D /* Network Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network Request.swift"; sourceTree = "<group>"; };
 		945DC7DF2AAC85E000D8BFC1 /* Send Crypto.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Send Crypto.xctestplan"; sourceTree = "<group>"; };
+		945DC7E02AAC873E00D8BFC1 /* CompositionRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionRoot.swift; sourceTree = "<group>"; };
 		94937BFE2AAC788800189BFD /* Send CryptoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Send CryptoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94937C002AAC788800189BFD /* EthPriceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthPriceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				9444A1302AAB36F7003CE42D /* App.swift */,
+				945DC7E02AAC873E00D8BFC1 /* CompositionRoot.swift */,
 				9444A1492AAB6BA6003CE42D /* FiatType.swift */,
 				9444A13E2AAB3842003CE42D /* Config */,
 				9444A14D2AAB72CF003CE42D /* EthPrice */,
@@ -262,6 +265,7 @@
 				9444A1442AAB4F9A003CE42D /* Color.swift in Sources */,
 				9444A1462AAB52DE003CE42D /* View.swift in Sources */,
 				9444A1422AAB43E0003CE42D /* Image.swift in Sources */,
+				945DC7E12AAC873E00D8BFC1 /* CompositionRoot.swift in Sources */,
 				9444A1512AAB77CA003CE42D /* Network Request.swift in Sources */,
 				9444A1312AAB36F7003CE42D /* App.swift in Sources */,
 				9444A1482AAB59BB003CE42D /* FiatSelectorView.swift in Sources */,
