@@ -64,6 +64,9 @@ final class EthPrice: ObservableObject {
     func load() async throws {
         isLoading = true
         do {
+            if fiatTypes.isEmpty {
+                throw EthPriceError.noEthPrices
+            }
             fiatPrices = try await ethPriceService.pricesForFiat(fiatTypes)
             let gasPrice = try await ethPriceService.priceForFastGas()
             estimatedNetworkFees = convertFastGasPriceToEstimatedNetworkCosts(gasPrice)
@@ -82,7 +85,7 @@ final class EthPrice: ObservableObject {
         ethAmount * (fiatPrices[fiatType] ?? 1)
     }
     
-    private func convertFastGasPriceToEstimatedNetworkCosts(_ price: Double) -> Double {
+    /* private */ func convertFastGasPriceToEstimatedNetworkCosts(_ price: Double) -> Double {
         21_000 * price / 100_000_000
     }
 }
