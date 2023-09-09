@@ -46,6 +46,7 @@
 		9444A14B2AAB728A003CE42D /* EthPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthPrice.swift; sourceTree = "<group>"; };
 		9444A14E2AAB72FB003CE42D /* Network Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network Models.swift"; sourceTree = "<group>"; };
 		9444A1502AAB77CA003CE42D /* Network Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network Request.swift"; sourceTree = "<group>"; };
+		945DC7DF2AAC85E000D8BFC1 /* Send Crypto.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Send Crypto.xctestplan"; sourceTree = "<group>"; };
 		94937BFE2AAC788800189BFD /* Send CryptoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Send CryptoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94937C002AAC788800189BFD /* EthPriceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthPriceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,6 +149,7 @@
 		94937BFF2AAC788800189BFD /* Send CryptoTests */ = {
 			isa = PBXGroup;
 			children = (
+				945DC7DF2AAC85E000D8BFC1 /* Send Crypto.xctestplan */,
 				94937C002AAC788800189BFD /* EthPriceTests.swift */,
 			);
 			path = "Send CryptoTests";

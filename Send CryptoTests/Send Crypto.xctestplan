@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "63E0ABF8-4CB2-4190-96CC-53D1F97BF83C",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:Send Crypto.xcodeproj",
+          "identifier" : "9444A12C2AAB36F7003CE42D",
+          "name" : "Send Crypto"
+        }
+      ]
+    },
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Send Crypto.xcodeproj",
+      "identifier" : "9444A12C2AAB36F7003CE42D",
+      "name" : "Send Crypto"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Send Crypto.xcodeproj",
+        "identifier" : "94937BFD2AAC788800189BFD",
+        "name" : "Send CryptoTests"
+      }
+    }
+  ],
+  "version" : 1
+}
