@@ -11,5 +11,4 @@
 - Implement user model to store user info, authentication
 - Split views into separate files for better re-usability, get rid of ugly nested ternaries
 - Add custom fonts
-- Dark mode?
-- Have a chat with the designer
+- Dark mode
