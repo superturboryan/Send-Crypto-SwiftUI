@@ -4,11 +4,11 @@
     <img src="https://i.imgur.com/kiAUsFz.png" width=400 />
 </p>
 
-# If I were to spend more time...
+# If I were to spend more time 💡
 
-- More atomic commits, these would be a pain to review and not how I like to work
+- Accessibility testing
 - More unit testing
 - Implement user model to store user info, authentication
-- Split views into separate files for better re-usability, get rid of ugly nested ternaries
+- Split views into separate files for better re-usability, get rid of nested ternaries
 - Add custom fonts
 - Dark mode
